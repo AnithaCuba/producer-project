@@ -42,7 +42,7 @@ jobs:
         run: |
           terraform apply -auto-approve -input=false -no-color \
             -var="aws_region=us-east-1" \
-            -var="bucket_name=producer-bucket03-cloud" \
+            -var="bucket_name=producerbucket-cloud03" \
             -var="lambda_function_name=producerLambda03"
 
       - name: Instalar dependencias de Python
