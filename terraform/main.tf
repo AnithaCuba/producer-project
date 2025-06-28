@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "producer_bucket" {
 }
 
 resource "aws_iam_role" "lambda_exec_role" {
-   name = "lambda_exec_role_terraform_Cloud03" # update
+   name = "lambda_exec_role_terraform_Cloud003" # update
 
    assume_role_policy = jsonencode({
      Version = "2012-10-17",
