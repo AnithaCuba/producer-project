@@ -42,8 +42,8 @@ jobs:
         run: |
           terraform apply -auto-approve -input=false -no-color \
             -var="aws_region=us-east-1" \
-            -var="bucket_name=producerbucket-cloud003_2025" \
-            -var="lambda_function_name=producerLambda03"
+            -var="bucket_name=producerbucket-cloud003-2025" \
+            -var="lambda_function_name=producerLambda03-2025"
 
       - name: Instalar dependencias de Python
         run: pip install boto3
